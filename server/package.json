@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
@@ -22,6 +22,7 @@
     "node-cron": "^3.0.3",
     "nodemailer": "^6.9.16",
     "server": "file:",
-    "twilio": "^5.4.2"
+    "twilio": "^5.4.2",
+    "vercel": "^41.0.3"
   }
 }
