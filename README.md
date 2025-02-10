@@ -24,7 +24,7 @@ A secure and robust authentication system built using the **MERN stack** (MongoD
 Ensure you have the following installed on your development machine:
 
 - **Node.js** (Download from [nodejs.org](https://nodejs.org/))
-- **npm** or **yarn** (Included with Node.js)
+- **npm**  (Included with Node.js)
 - **MongoDB** – Either a local installation or a MongoDB Atlas account for a cloud database
 
 ---
