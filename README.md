@@ -144,21 +144,9 @@ Contributions are welcome! If you have suggestions, bug fixes, or enhancements, 
 5. Open a pull request.
 
 ---
-
-## 📞 Contact
-
-For any questions or further discussion, feel free to reach out:
-
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
-- **GitHub:** [PriyanshMathur](https://github.com/PriyanshMathur)
-- **Portfolio:** [priyanshmathur.dev](https://priyanshmathur.dev)
-
----
-
 ## 🙌 Built By
 
 **Priyansh Mathur**
 
-- **GitHub:** [PriyanshMathur](https://github.com/PriyanshMathur)
-- **Portfolio:** [priyanshmathur.dev](https://priyanshmathur.dev)
+- **Portfolio:** https://portfolio-website-priyansh.vercel.app/
 ```
