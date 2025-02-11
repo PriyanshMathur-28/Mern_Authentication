@@ -2,7 +2,6 @@
 
 A secure and robust authentication system built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This project implements user registration, login, and protected routes using JWT-based authentication and password hashing. It demonstrates modern web development practices and serves as a solid foundation for full-stack applications requiring secure user management.
 
-**Live Demo:** [https://mern-auth-priyansh.vercel.app/](https://mern-auth-priyansh.vercel.app/) *(Replace with your actual live link if available)*
 
 ---
 
