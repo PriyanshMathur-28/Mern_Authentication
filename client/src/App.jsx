@@ -10,14 +10,14 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { Context } from "./main";
 import OtpVerification from "./pages/OtpVerification";
-
+import { BASE_URL } from "./config";
 const App = () => {
   const { setIsAuthenticated, setUser } = useContext(Context);
 
   useEffect(() => {
     const getUser = async () => {
       await axios
-        .get("http://localhost:4000/api/v1/user/me", { withCredentials: true })
+        .get(`${BASE_URL}/api/v1/user/me`, { withCredentials: true })  // Use BASE_URL
         .then((res) => {
           setUser(res.data.user);
           setIsAuthenticated(true);
@@ -27,6 +27,7 @@ const App = () => {
           setIsAuthenticated(false);
         });
     };
+    
     getUser();
   }, []);
 
