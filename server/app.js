@@ -30,6 +30,10 @@ app.use("/api/v1/user", userRouter);
 removeUnverifiedAccounts();
 connection();
 
+app.get("/", (req, res) => {
+    res.send("Backend is running!");
+});
+
 app.use(errorMiddleware);
 
 // ✅ Export for Vercel (important)
